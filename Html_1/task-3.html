@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task-3.css">
+  </head>
+  <body>
+    <div class="body-5">
+      <div class="mass">
+        <form name="cals">
+         <input type="text" name="display" id="display" placeholder="0" readonly>
+          <br>
+          <div class="demo-box">
+            <input type="button"  class="btn" value="7" onclick="cals.display.value +='7'">
+            <input type="button"  class="btn" value="8" onclick="cals.display.value +='8'">
+            <input type="button"  class="btn" value="9" onclick="cals.display.value +='9'">
+            <input type="button"  class="btn abc" value="+" onclick="cals.display.value +='+'"><br>
+            <input type="button"  class="btn" value="4" onclick="cals.display.value +='4'">
+            <input type="button"  class="btn" value="5" onclick="cals.display.value +='5'">
+            <input type="button"  class="btn" value="6" onclick="cals.display.value +='6'">
+            <input type="button"  class="btn abc" value="-" onclick="cals.display.value +='-'"><br>
+            <input type="button"  class="btn" value="1" onclick="cals.display.value +='1'">
+            <input type="button"  class="btn" value="2" onclick="cals.display.value +='2'">
+            <input type="button"  class="btn" value="3" onclick="cals.display.value +='3'">
+            <input type="button"  class="btn abc" value="*" onclick="cals.display.value +='*'"><br>
+            <input type="button"  class="btn jd" value="C" onclick="cals.display.value =''">
+            <input type="button"  class="btn" value="0" onclick="cals.display.value +='0'">
+            <input type="button"  class="btn abc" value="/" onclick="cals.display.value +='/'">
+            <input type="button"  class="btn abc" value="=" onclick="cals.display.value = eval(cals.display.value)">
+            <br>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

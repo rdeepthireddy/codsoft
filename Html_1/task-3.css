@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+.body-5{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210311/pngtree-calculator-childrens-day-toy-background-image_582237.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20px;
+}
+.mass {
+    width: 380px;
+    height: 490px;
+    margin: 65px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+#display {
+    border: none;
+    outline: none;
+    width: 360px;
+    height: 80px;
+    color:blue;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: right;
+    background: rgb(196, 192, 192);
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
+.demo-box {
+    margin:  40px 40px;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #ecedef;
+}
+.btn:hover {
+    background: rgb(250, 26, 198);
+}
+.jd, .jd:hover {
+    background: rgb(253, 2, 253);
+} 
+.abc, .abc:hover {
+    background: rgb(246, 55, 22);
+     color: black;
+}
+.mass {
+    padding-top: 5px;
+}
